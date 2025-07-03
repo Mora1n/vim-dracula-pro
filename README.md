@@ -6,7 +6,7 @@
 
 ```vim
 call plug#begin('~/.vim/plugged')
-Plug 'yourusername/dracula-pro-vim', { 'as': 'dracula_pro' }
+Plug 'Mora1n/dracula-pro-vim', { 'as': 'dracula_pro' }
 call plug#end()
 
 if has('termguicolors') | set termguicolors | endif
@@ -21,7 +21,7 @@ Or with Vim 8+ packages:
 
 ```bash
 cd ~/.vim/pack/vendor/start
-git clone https://github.com/yourusername/dracula-pro-vim.git
+git clone https://github.com/Mora1n/dracula-pro-vim.git
 ```
 
 ## Configuration
